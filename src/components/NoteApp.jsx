@@ -40,7 +40,7 @@ class NoteApp extends React.Component {
                         title,
                         body,
                         archived: false,
-                        createdAt: new Date(),
+                        createdAt: new Date().toISOString(),
                     }
                 ]
             }
